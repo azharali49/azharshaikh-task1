@@ -1,0 +1,7 @@
+version: 3
+endpoint: https://azharshaikh-task-1.hasura.app/v1/graphql
+admin_secret: I0Y0LWrVz36h3gPvkXkozJNbK8gkE5WM5Dgl2KC5ydPMxfF2KogX8PrhZm0gT2Ud
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
